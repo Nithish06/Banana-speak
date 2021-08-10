@@ -5,19 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Banana Talks</title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
   </head>
 
   <body>
-    <h1>Banana Talks</h1>
-    <button id="btn-click">click me</button>
+    <div class="main-container">
+      <div>
+        <h1>Banana Talks</h1>
 
-    <textarea
-      id="text-input"
-      placeholder="Type your senetence Here and we will convert it into Banana"
-    ></textarea>
+        <textarea
+          id="text-input"
+          placeholder="Type your senetence Here and we will convert it into Banana"
+        ></textarea>
+        <div><button id="btn-click">Translate</button></div>
 
-    <div>Output will comer here</div>
-    <div id="output"></div>
+        <div class="output-container">Output will come below :</div>
+        <div id="output" class="output"></div>
+        <img src="OIP.jpg" />
+      </div>
+    </div>
+
     <script src="app.js" type="text/javascript"></script>
   </body>
 </html>
